@@ -1,0 +1,39 @@
+/*
+.test__container{
+    --n: 1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    width: calc(var(--n)*100%);
+    transform: translate(calc(var(--i, 0)/var(--n)*-100% + var(--tx, 0px)));
+}
+*/
+.test__body{
+    /*
+    width: 100%;
+    width: calc(100%/var(--n));
+    pointer-events: none;
+    */
+    font-family: 'Source Sans Pro';
+    font-size: 1.28rem;
+    line-height: 1.618em;
+}
+
+.test__para{
+    padding: 0 5%;
+}
+
+.smooth { transition: transform calc(var(--f, 1)*.4s) ease-out; }
+
+.testimonial{
+    padding-top: 0 !important;
+}
+
+.test__name{
+    margin-bottom: 2.4%;
+    margin-top: .5%;
+}
+
+.test-more{
+    margin-bottom: 0 !important;
+}

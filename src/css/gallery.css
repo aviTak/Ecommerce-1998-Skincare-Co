@@ -1,0 +1,110 @@
+.gallery{
+    margin: 1.5% 5% 4% 5%;
+    font-family: 'Source Sans Pro';
+    font-size: 1.28rem;
+    line-height: 1.618em;
+    
+    display: grid;
+    
+    grid-template-columns: repeat(3, 30%);    
+    column-gap: 5%;
+    row-gap: 45px;
+}
+
+.refetch{
+    margin: -1% 5% 4% 5%;
+    font-family: 'Source Sans Pro';
+    font-size: 1.28rem;
+    line-height: 1.618em;
+    text-align: center;
+}
+
+.regain{
+    margin: 1.5% 5% 4% 5%;
+    font-family: 'Source Sans Pro';
+    font-size: 1.28rem;
+    line-height: 1.618em;
+    text-align: center;
+}
+
+.gallery__in{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.chop{
+    overflow: hidden;
+    height: 450px;
+    width: 100%;
+}
+
+.chop__image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #e1f0f7;
+    width: 100%;
+    height: 100%;
+    transition: .5s transform ease-in;
+}
+
+.chop__image:hover{
+    transform: scale(1.4);
+}
+
+.hop{
+    text-align: center;
+    padding: 3% 0 0 0;
+}
+
+.listy--sfx{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+}
+
+.listy--price{
+    margin-top: 3%;
+}
+
+.listy--stock{
+    margin-top: 3%;
+    border: 2px solid #193c46;
+    color: #193c46;
+    display: inline-block;
+    padding: .8% 4%;
+}
+
+
+.lds-hourglass {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-hourglass:after {
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 32px solid #193c46;
+    border-color: #193c46 transparent #193c46 transparent;
+    animation: lds-hourglass 1.2s infinite;
+  }
+  @keyframes lds-hourglass {
+    0% {
+      transform: rotate(0);
+      animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    50% {
+      transform: rotate(900deg);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    100% {
+      transform: rotate(1800deg);
+    }
+  }
+  

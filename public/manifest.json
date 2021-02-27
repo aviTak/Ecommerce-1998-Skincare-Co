@@ -1,0 +1,15 @@
+{
+  "short_name": "1998 Skincare Co.",
+  "name": "1998 Skincare Co. | Explore the best handmade natural skincare products",
+  "icons": [
+    {
+      "src": "images/logo.png",
+      "type": "image/png",
+      "sizes": "2160x2160"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#b49298",
+  "background_color": "#ffffff"
+}

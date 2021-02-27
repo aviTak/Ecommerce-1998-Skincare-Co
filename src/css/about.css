@@ -1,0 +1,25 @@
+.about{
+    background-color: #f7e8e1;
+    color: #43281b;
+    padding: 4% 0;
+}
+
+.about__heading{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 2.3rem;
+    text-align: center;
+    padding: 0 5% 2% 5%;
+}
+
+.about__para{
+    font-family: 'Source Sans Pro';
+    font-size: 1.28rem;
+    line-height: 1.618em;
+    text-align: justify;
+    padding: 0 5%;
+}
+
+.para--1{
+    margin-bottom: 2.4%;
+}

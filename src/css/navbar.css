@@ -1,0 +1,183 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap'); */
+/*
+#nav{
+    display: none;
+}
+*/
+.navbar{
+    background-color: transparent;    
+    font-family: 'Source Sans Pro';
+    font-size: 1.4rem;
+    line-height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+    font-weight: 700;
+    transition: all .5s ease-out;
+}
+
+.show{
+    background-color: #b49298;
+    box-shadow: 14px 0px 10px 4px #775954;
+    color: #43281b !important;
+}
+
+.show a:link, .show a:visited{
+    color: #43281b !important;
+}
+
+.show svg{
+    fill: #43281b !important;
+}
+
+.show li::after{
+    background: #43281b !important;
+    display: inline-block;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+.tab--close{
+    color: #43281b;
+    font-family: 'Playfair Display' !important;
+    text-align: right;
+    margin-right: 18%;
+    margin-top: 5%;
+}
+
+.navbar__heading{
+    display: inline-block;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 1.8rem;
+    position: absolute;
+    left: 5%;
+}
+
+.tab-we{
+    font-family: 'Reenie Beanie', cursive !important;
+    font-size: 1.8rem !important;
+    line-height: 1em !important;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tab-we div{    
+    width: 100%;
+    text-align: center;
+}
+
+.navbar__list{
+    text-align: right;
+}
+
+.navbar__list li{
+    display: inline-block;
+    margin-right: 3.5%;
+    position: relative;
+}
+
+.tavbar__list li{
+    display: block;
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    line-height: 2.7em;
+}
+
+.tavbar__list li::after{
+    content: '';
+    position: absolute;
+    width: 0; 
+    right: 0;
+    bottom: 0;
+    background: #43281b;
+    height: 2px;
+    transition: width .3s ease;
+}
+
+.tavbar__list li:hover:after{
+    width: 100%;
+    left: 0;
+}
+
+#cart{
+    margin-right: 5%; 
+}
+
+.navbar__list li::after{
+    content: '';
+    position: absolute;
+    width: 0; 
+    right: 0;
+    height: 2px;
+    top: 75%;
+    margin-top: 0%;
+    background: #000000;
+    transition: width .3s ease;
+}
+
+.navbar__list li:hover:after{
+    width: 100%;
+    left: 0;
+}
+
+.navbar__logo{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar__list{
+    position: relative;
+}
+
+.navbar__logo svg{
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    display: block;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 500;
+  }
+
+.navbar--tab{
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.7);     
+    transform: translateX(-100%);
+    display: none;
+    transition: transform .3s ease-out;
+}
+
+.ringrose{
+    transform: translateX(0%);
+}
+
+#mo-home{
+    margin-top: 10%;
+}
+
+.tab-1{
+    position: absolute;
+    height: 100%;
+    width: 35%;
+    background-color: #f7e8e1;
+    color: #43281b !important;
+    box-shadow: 0px 14px 10px 3px #775954;
+    font-size: 1.4rem;
+}
+
+.tab-2{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 65%;
+}
+
+

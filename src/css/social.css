@@ -1,0 +1,77 @@
+.social{
+    background-color: #f7e8e1;
+    color: #43281b;
+    padding: 0 5% 0% 5%;
+    margin-bottom: 145px;
+    font-family: 'Source Sans Pro';
+    position: relative;
+}
+
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.social--input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    opacity: 1; /* Firefox */
+    color: #6d412c;
+}
+  
+.social--input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #6d412c;
+}
+  
+.social--input::-ms-input-placeholder { /* Microsoft Edge */
+    color: #6d412c;
+}
+
+.social--input{
+    outline: transparent;
+    font-size: 1.28rem;
+    padding-bottom: 12px;
+    border: none;
+    border-bottom: 2px solid #43281b;
+    background: transparent;
+    color: #43281b;
+    width: 90%;
+    padding: 0 5px 12px 5px;
+}
+
+.social--button{
+    font-size: 2rem;
+    outline: transparent;
+    border: none;
+    background: transparent;
+    color: #43281b;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    cursor: pointer;
+    width: 10%;
+    text-align: right;
+}
+
+.social__error{
+    font-size: 1.4rem;
+    text-align: right;
+    font-style: italic;
+    display: block;
+    float: right;
+}
+
+.social form{
+    position: relative;
+    /*
+    left: 50%;
+    transform: translateX(-50%); */
+}
+
+.social form label{
+    display: block;
+    font-size: 2.3rem;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    padding-bottom: 2%;
+    text-align: center;
+}
+

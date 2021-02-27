@@ -1,0 +1,38 @@
+.foot:link, .foot:visited{
+    text-decoration: none;
+    color: #43281b;
+    font-family: 'Source Sans Pro';
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.media__links{
+    margin-top: 1.4%;
+    line-height: 1.618em;
+}
+
+.foot:hover{
+    text-decoration: underline;
+}
+
+.avi{
+    width: 100%;
+    line-height: 2.2em;
+    font-size: 1.28rem;
+    padding: .6% 0;
+    color: #f7e8e1;
+    background-color: #193c46;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+}
+
+.izon-m{
+    margin-top: 2%;
+    text-align: left;
+}
+
+.izon{
+    margin-right: 10px;
+}

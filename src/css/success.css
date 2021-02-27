@@ -1,0 +1,21 @@
+.contact{
+    background-color: #f7e8e1;
+    color: #43281b;
+    padding: 95px 0 4% 0;
+}
+
+.contact__heading{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 2.3rem;
+    text-align: center;
+    padding: 0 5% 2% 5%;
+}
+
+.contact__para{
+    font-family: 'Source Sans Pro';
+    font-size: 1.28rem;
+    line-height: 1.618em;
+    text-align: justify;
+    padding: 0 5%;
+}
