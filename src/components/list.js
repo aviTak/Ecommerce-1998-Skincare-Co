@@ -196,7 +196,7 @@ function List(props){
         let W = window.innerHeight;
 
 
-        if(E + P - W - 100 <= S){             
+        if(Math.floor(E + P - W - 100) <= Math.ceil(S)){             
 
             // Save new cursor and new last click and make it busy
 
